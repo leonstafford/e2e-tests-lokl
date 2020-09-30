@@ -49,7 +49,21 @@ This allows for ease of testing within consistent environment.
 | 0       | wp2static-addon-advanced-crawling  | Advanced Crawling             | Provides advanced crawling options                        | https://github.com/WP2Static/wp2static-addon-advanced-crawling |
 +---------+------------------------------------+-------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
 ```
-   - assert all expected addons appear
+   - assert all expected addons appear (cmd output matches test's expected output file)
    - exit 0 or 1 exit 
+
+## Example test dirs
+
+For the above example test, directory tree may look like:
+
+```
+    e2e-tests-lokl
+    └── wp22static
+        └── addons
+            └── default-available
+                ├── default-addons-available.test.sh
+                └── output
+                    └── default-addons-list.clioutput
+```
 
 
