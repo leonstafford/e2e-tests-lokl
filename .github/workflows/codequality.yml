@@ -11,5 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run ShellCheck
-      uses: ludeeus/action-shellcheck@master
+
+    - name: Install shellcheck
+      run: sudo apt-get install shellcheck
+
+
+    - name: Run tests
+      run: sh scripts/test.sh
