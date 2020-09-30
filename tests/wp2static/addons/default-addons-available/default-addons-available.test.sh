@@ -9,6 +9,8 @@ wp wp2static addons list > /tmp/wp2static-addons-list.clioutput
 
 cd "forcefail"
 
+if []
+
 echo "comparing expected and actual results"
 echo "using file to file cmp"
 if cmp -s /tmp/wp2static-addons-list.clioutput ./tests/wp2static/addons/default-addons-available/output/default-addons-list.clioutput
