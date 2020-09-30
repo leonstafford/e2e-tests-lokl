@@ -15,6 +15,5 @@ jobs:
     - name: Install shellcheck
       run: sudo apt-get install shellcheck
 
-
     - name: Run tests
       run: sh scripts/test.sh
