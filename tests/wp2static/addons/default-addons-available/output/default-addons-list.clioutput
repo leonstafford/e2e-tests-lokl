@@ -1,0 +1,9 @@
++---------+------------------------------------+-------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| Enabled | Slug                               | Name                          | Description                                               | Docs                                                           |
++---------+------------------------------------+-------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+| 0       | wp2static-addon-s3                 | S3 Deployment                 | Deploys to S3 with optional CloudFront cache invalidation | https://wp2static.com/addons/s3/                               |
+| 0       | wp2static-addon-zip                | ZIP Deployment                | Deploys to ZIP archive                                    | https://wp2static.com/addons/zip/                              |
+| 0       | wp2static-addon-cloudflare-workers | Cloudflare Workers Deployment | Deploys to Cloudflare Workers                             | https://wp2static.com/addons/cloudflare-workers/               |
+| 0       | wp2static-addon-advanced-crawling  | Advanced Crawling             | Provides advanced crawling options                        | https://github.com/WP2Static/wp2static-addon-advanced-crawling |
++---------+------------------------------------+-------------------------------+-----------------------------------------------------------+----------------------------------------------------------------+
+

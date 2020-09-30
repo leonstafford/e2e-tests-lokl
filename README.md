@@ -6,23 +6,23 @@ Used for test driven development of new features and mitigation of regressions.
 
 ## Pseudo-design / thinking out loud / roadmap 
 
- - [ ] shell scripts
- - [ ] minimal dependencies
+ - [x] shell scripts
+ - [x] minimal dependencies
  - [ ] HTML assertions via some [CLI tools](https://github.com/dbohdan/structured-text-tools#xml-html)
  or small custom scripts
  - [ ] auto-build latest test suite into Lokl's `test` Docker tag
  - [ ] uses the `N` and `P` env vars available within tests
- - [ ] setup / teardown to reset DB and filesystem to Lokl default state
+ - [-] setup / teardown to reset DB and filesystem to Lokl default state
  - [ ] include test dependencies within main Lokl Docker image (reduce complexity of
  maintaining different branches)
- - [ ] WP-CLI used for all WordPress control vs more costly browser automation
+ - [-] WP-CLI used for all WordPress control vs more costly browser automation
  - [ ] `exit 0` early (with message) to skip tests
  - [ ] entrypoint test runner with flag to abort on any non-zero exit
- - [ ] tests (`filename.test.sh`) organized within nested dirs for project/feature
+ - [x] tests (`filename.test.sh`) organized within nested dirs for project/feature
  - [ ] all `filename.test.sh` are standalone, can run in any order
  - [ ] if long-running test, can source additional scripts (without `.test.sh`
  in filename so as not to be run by itself)
- - [ ] `shellcheck` tests the tests
+ - [x] `shellcheck` tests the tests
 
 ## Other considerations
 
