@@ -33,7 +33,7 @@ Lokl containers are identical, apart from:
 This allows for ease of testing within consistent environment.
 
 
-## Example scripts
+## Example test
 
  - install all WP2Static add-ons, assert they appear in add-ons list
    - setup (as per Lokl default state, all add-ons installed and activated)
@@ -67,3 +67,10 @@ For the above example test, directory tree may look like:
 ```
 
 
+## Other tests this suits
+
+ - static generated output involving other plugins modifying output
+ (ie, Autoptimize)
+ - testing SSG caching mechanisms
+ - testing deployed static sites on AWS, Cloudflare, etc
+ - testing cloud provisioning (TBA) features of plugins
